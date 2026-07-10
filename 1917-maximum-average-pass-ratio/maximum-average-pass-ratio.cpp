@@ -36,3 +36,11 @@ public:
         return sum / classes.size();
     }
 };
+
+//Don't choose the smallest ratio.
+
+// Choose the class with the maximum gain.
+
+// gain = (p+1)/(t+1) - p/t
+
+// Use a max heap of {gain, pass, total}.
